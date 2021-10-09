@@ -199,6 +199,11 @@
     background-color: var(--white-color);
     border: 1px solid var(--primary-color);
 }
+.btn_view-detail:hover{
+    color: var(--primary-color);
+    background-color: var(--white-color);
+    border: 1px solid var(--primary-color);
+}
 .homeimg2{
     position: absolute;
     width: 1176px;
@@ -216,73 +221,378 @@
 }
 .icon1{
 position: absolute;
-left: 200px;
+left: 280px;
 top: 4300px;
 height: 20px;
 width: 15px;
 }
 .icon2{
     position: absolute;
-    left: 200px;
+    left: 280px;
     top: 4350px;
     height: 20px;
     width: 20px;
 }
 .icon3{
     position: absolute;
-    left: 200px;
+    left: 280px;
     top: 4400px;
     height: 15px;
     width: 20px;
 }
+.contact1{
+    position: absolute;
+    width: 295px;
+    height: 28px;
+    left: 319px;
+    top: 4295px;
 
-.category-name{
-    margin: 32px 0;
-    font-size: 2.4rem;
-    color: var(--primary-color);
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 175% */
+
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #474747;
 }
-.category{
-    margin-top: 48px;
-    background-color: var(--category-color);
-    border-radius: 2px;
+.contact2{
+    position: absolute;
+    width: 218px;
+    height: 28px;
+    left: 319px;
+    top: 4345px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 175% */
+
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #474747;
+
 }
-.category-heading{
-    display: flex;
-    align-items: center;
-    font-size: 2rem;
-    padding: 16px 32px;
-    margin: 0;
-    color: var(--text-color);
-    border-bottom: 1px solid var(--line-color);
+.contact3{
+    position: absolute;
+    width: 179px;
+    height: 28px;
+    left: 319px;
+    top: 4395px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 175% */
+
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #474747;
 }
-.category-heading-icon{
-    width: 15px;
-    height: 15px;
-    margin-right: 16px;
-}
-.category-list{
-    margin: 0;
-    padding: 12px 32px;
-    list-style: none;
-}
-.category-list-item{
-    font-size: 1.8rem;
-    font-weight: 300;
-    padding: 12px 0;
-    color: var(--primary-color);
-}
-.category-list-item-selected{
-    font-size: 1.9rem;
+.contact4{
+    position: absolute;
+    width: 216px;
+    height: 28px;
+    left: 954px;
+    top: 4295px;
+
+    font-family: "Roboto";
+    font-style: normal;
     font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height, or 117% */
+
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #336E51;
+
 }
-.category-promote{
-    margin-top: 16px;
+.txtEmail{
+    position: absolute;
+    width: 397px;
+    height: 36px;
+    left: 863px;
+    top: 4345px;
+    
+
+    border: 1px solid #336E51;
+    box-sizing: border-box;
+    border-radius: 3px;
 }
-.category-promote-img{
-    width: 100%;
-    margin: 16px 0;
-    border-radius: 2px;
+.btnRegister{
+    position: absolute;
+    width: 200px;
+    height: 45px;
+    left: 962px;
+    top: 4400px;
+
+    background: #336D51;
+    box-shadow: 0px 4px 4px rgba(102, 126, 234, 0.25);
+    border-radius: 50px;
+}
+.btnRegister:hover{
+    color: var(--primary-color);
+    background-color: var(--white-color);
+    border: 1px solid var(--primary-color);
+}
+.voucher{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 270px;
+    top: 4600px;
+}
+.txtvoucher1{
+    position: absolute;
+    width: 188px;
+    height: 36px;
+    left: 220px;
+    top: 4710px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: -0.05em;
+
+    color: #7C7C7C;
+}
+.txtvoucher2{
+    position: absolute;
+    width: 218px;
+    height: 48px;
+    left: 220px;
+    top: 4760px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.05em;
+
+    color: #898989;
+
+}
+.txtvoucher3{
+    position: absolute;
+    width: 198px;
+    height: 24px;
+    left: 220px;
+    top: 4830px;
+    
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: -0.02em;
+    
+    color: #336E51;
+}
+.process{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 570px;
+    top: 4600px;
+}
+.txtprocess1{
+    position: absolute;
+    width: 188px;
+    height: 36px;
+    left: 520px;
+    top: 4710px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: -0.05em;
+
+    color: #7C7C7C;
+}
+.txtprocess2{
+    position: absolute;
+    width: 218px;
+    height: 48px;
+    left: 520px;
+    top: 4760px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.05em;
+
+    color: #898989;
+ 
+}
+.txtprocess3{
+    position: absolute;
+    width: 198px;
+    height: 24px;
+    left: 520px;
+    top: 4830px;
+    
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: -0.02em;
+    
+    color: #336E51;
+}
+.services{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 870px;
+    top: 4600px;
+}
+.txtservices1{
+    position: absolute;
+    width: 188px;
+    height: 36px;
+    left: 820px;
+    top: 4710px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: -0.05em;
+
+    color: #7C7C7C;
+}
+.txtservices2{
+    position: absolute;
+    width: 218px;
+    height: 48px;
+    left: 820px;
+    top: 4760px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.05em;
+
+    color: #898989;
+ 
+}
+.txtservices3{
+    position: absolute;
+    width: 198px;
+    height: 24px;
+    left: 820px;
+    top: 4830px;
+    
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: -0.02em;
+    
+    color: #336E51;
+}
+.methods{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 1170px;
+    top: 4600px;
+}
+.txtmethods1{
+    position: absolute;
+    width: 188px;
+    height: 36px;
+    left: 1120px;
+    top: 4710px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: -0.05em;
+
+    color: #7C7C7C;
+}
+.txtmethods2{
+    position: absolute;
+    width: 218px;
+    height: 48px;
+    left: 1120px;
+    top: 4760px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.05em;
+
+    color: #898989;
+ 
+}
+.txtmethods3{
+    position: absolute;
+    width: 198px;
+    height: 24px;
+    left: 1120px;
+    top: 4830px;
+    
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: -0.02em;
+    
+    color: #336E51;
 }
 .products-filter{
     margin: 24px 0;
