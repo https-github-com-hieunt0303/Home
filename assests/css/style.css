@@ -113,7 +113,7 @@
     height: 68.82px;
     left: 159.94px;
     top: 535px;
-    background-image: url(/assests/img/Group\ 124.png);
+    background-image: url(/Home/assests/img/Group\ 124.png);
     background-color: transparent;
     border-style:none;
 }
@@ -127,7 +127,7 @@
     left: 100px;
     width: 20px;
     height: 32px;
-    background-image: url(/assests/img/btnleft.png);
+    background-image: url(/Home/assests/img/btnleft.png);
     background-color: transparent;
     border-style: none;
 }
@@ -141,7 +141,7 @@
     right: 100px;
     width: 20px;
     height: 32px;
-    background-image: url(/assests/img/btnright.png);
+    background-image: url(/Home/assests/img/btnright.png);
     background-color: transparent;
     border-style: none;
    
@@ -156,7 +156,7 @@
     left: 100px;
     width: 20px;
     height: 32px;
-    background-image: url(/assests/img/btnleft.png);
+    background-image: url(/Home/assests/img/btnleft.png);
     background-color: transparent;
     border-style: none;
 }
@@ -170,7 +170,7 @@
     right: 100px;
     width: 20px;
     height: 32px;
-    background-image: url(/assests/img/btnright.png);
+    background-image: url(/Home/assests/img/btnright.png);
     background-color: transparent;
     border-style: none;
    
