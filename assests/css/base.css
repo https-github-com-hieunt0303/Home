@@ -23,27 +23,42 @@ html{
 }
 /* Responsive*/
 .grid{
-    width: 1440px;
+    width: 1400px;
     max-width: 100%;
     margin: 0 auto;
-    display: grid;
-    grid-template-rows: 800px 400px 100px 80px 900px 80px 900px 650px 80px 200px 80px 200px 80px 300px ;
+    
 }
 .grid-full-width{
     width: 100%;
 }
 .grid-row{
     background:url(/Home/assests/img/Vector1.jpg);
-    width: 100%;
-    height: 790px;
     display: flex;
     flex-wrap: wrap;
+    padding-left: -16px;
+    padding-right: -16px; 
+}
+.grid-col-3{
+    width: 50%;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.grid-col-7{
+    width: 50%;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.grid-row2{
+    padding: 20px 20px 20px 20px ;
+}
+.grid-col-1{
+    margin-top: 50%;
 }
 .grid-row5{
     display: grid; 
     background-color: #E6ECE9 ;
     grid-template-columns: 5% 30% 30% 30% 5%;
-    margin: 10px 30px 10px 30px;
+    margin: 10px 30px 10px 1%;
 }
 .grid-row7{
     display: grid; 
@@ -52,16 +67,35 @@ html{
     margin: 10px 30px 10px 30px;
 }
 .grid-row12{
-    display: grid; 
+    display: flex;
+    width: 100%; 
     background-color:white ;
-    grid-template-columns: 5% 45% 50%;
-    margin: 10px 30px 10px 30px;
+}
+.grid-col12-1{
+    width: 50%; 
+}
+
+.grid-col12-3{
+    width: 50%;
 }
 .grid-row14{
-    display: grid; 
+    width: 100%;
+    display: flex; 
     background-color:white ;
-    grid-template-columns: 25% 25% 25% 25%;
-    margin: 10px 30px 10px 30px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.grid-col14-1{
+    width: 25%;
+}
+.grid-col14-2{
+    width: 25%;
+}
+.grid-col14-3{
+    width: 25%;
+}
+.grid-col14-4{
+    width: 25%;
 }
 .btn{
     min-width: 120px;
