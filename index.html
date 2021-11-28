@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./assests/css/base.css">
     <link rel="stylesheet" href="./assests/css/style.css">
     <link rel="stylesheet" href="./assests/css/styleslide.css">
+    <link rel="stylesheet" href="./assests/css/responsive.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="assests/index.js"></script>
     <link href="assests/font/fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet">
@@ -15,336 +16,527 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="products">
-        <div class="grid-full-width">
-            <div class="home-heading">
-                <span class="home-heading__label">Home</span>
+    <div class="main">
+        <div class="home__header">
+            <img src="./assests/img/header-background.png" alt="" class="home__header-img">
+            <div class="home__heading">
+                <div class="home__heading-info">
+                    <h2>Skin Care</h2>
+                    <span>Truly Natural, Sensorial Beauty</span>
+                    <div  class="home__sub-heading">
+                        <p>We bring you truly natural, cruelty free skincare that provides results you can see and feel.</p>
+                        <p>We also believe skincare should smell and feel amazing and add enjoyment to your daily routine.</p>
+                    </div>
+                    <a href="" class="home__link">
+                        <div class="home__btn">
+                            <img src="./assests/img/btn-background.png" alt="" class="home__btn-img">
+                            <span>
+                                SHOP NOW
+                                <i class="fas fa-arrow-right"></i>
+                            </span>
+                        </div>
+                    </a>
+                </div> 
+                <div class="home__heading-img">
+                    <img src="./assests/img/header-img.png" alt="" class="home__heading-img-pic">
+                </div>
             </div>
         </div>
-    </div>
-    <div class="grid">
-        <div class="grid-row">
-            <div class="grid-col-3">
-                <h1 class="topic1">Skin Care</h1>
-                <h1 class="topic2">Truly Natural, Sensorial Beauty</h1>
-                <h1 class="topic3"><p>We bring you truly natural, cruelty free skincare that provides</p> 
-                    <p> results you can see and feel.</p>
-                    <p>>We also believe skincare should smell and feel amazing and add </p>
-                    <p>enjoyment to your</p>
-                    <p>daily routine.</p></h1>
-                    
-                <img class="btn_ShopNow" src="assests/img/Group124.png">
-            </div>
-            <div class ="grid-col-7">
-                <img src="assests/img/1_Mesa de trabajo 1 1.png" class="homeimg1">
-            </div>    
-        </div>
-        <div class="grid-row2">
+        <div class="home__slide">
             <div class="cont">
                 <div class="slider"></div>
                 <ul class="nav"></div>
                 <div data-target='right' class="side-nav side-nav--right"></div>
                 <div data-target='left' class="side-nav side-nav--left"></div>
+        </div>
+        <div class="home__category">
+            <div class="home__category-item">
+                <span class="home__category-name">
+                    Product type
+                </span>
+                <i class="home__category-icon fas fa-chevron-down"></i>
+                <nav class="home__category-menu">
+                    <ul class="home__category-list">
+                        <li class="home__category-list-item">
+                            <a href="">All</a>
+                        </li>
+                        <li class="home__category-list-item">
+                            <a href="">Best Seller</a>
+                        </li>
+                        <li class="home__category-list-item">
+                            <a href="">New</a>
+                        </li>
+                        <li class="home__category-list-item">
+                            <a href="">Face</a>
+                        </li>
+                        <li class="home__category-list-item">
+                            <a href="">Body</a>
+                        </li>
+                        <li class="home__category-list-item">
+                            <a href="">Tools</a>
+                        </li>
+                        <li class="home__category-list-item">
+                            <a href="">Sets + Gifts</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="home__category-item">
+                <span class="home__category-name">
+                    Skin type
+                </span>
+                <i class="home__category-icon fas fa-chevron-down"></i>
+                <nav class="home__category-menu">
+                    <ul class="home__category-list">
+                        <li class="home__category-list-item">
+                            <a href="">Oily Skin</a>
+                        </li>
+                        <li class="home__category-list-item">
+                            <a href="">Dry Skin</a>
+                        </li>
+                        <li class="home__category-list-item">
+                            <a href="">Combination Skin</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="home__category-item">
+                <span class="home__category-name">
+                    Ingredients
+                </span>
+                <i class="home__category-icon fas fa-chevron-down"></i>
+                <nav class="home__category-menu">
+                    <ul class="home__category-list">
+                        <li class="home__category-list-item">
+                            <a href="">Green Tea</a>
+                        </li>
+                        <li class="home__category-list-item">
+                            <a href="">Blueberry</a>
+                        </li>
+                        <li class="home__category-list-item">
+                            <a href="">Red Pomegranate</a>
+                        </li>
+                        <li class="home__category-list-item">
+                            <a href="">Cherry Blossom</a>
+                        </li>
+                        <li class="home__category-list-item">
+                            <a href="">Volcanic ash rock</a>
+                        </li>
+                        <li class="home__category-list-item">
+                            <a href="">AHA & BHA</a>
+                        </li>
+                        <li class="home__category-list-item">
+                            <a href="">Leaf Extract</a>
+                        </li>
+                        <li class="home__category-list-item">
+                            <a href="">Carica Papaya</a>
+                        </li> 
+                    </ul>
+                </nav>
+            </div>
+            <div class="home__category-item">
+                <span class="home__category-name">
+                    Price
+                </span>
+                <i class="home__category-icon fas fa-chevron-down"></i>
+                <nav class="home__category-menu">
+                    <ul class="home__category-list">
+                        <li class="home__category-list-item">
+                            <a href="">Price from low to high</a>
+                        </li>
+                        <li class="home__category-list-item">
+                            <a href="">Price from high to low</a>
+                        </li>
+                        <li class="home__category-list-item">
+                            <a href="">Price from 5$ to 20$</a>
+                        </li>
+                        <li class="home__category-list-item">
+                            <a href="">Price from 20$ to 50$</a>
+                        </li>
+                        <li class="home__category-list-item">
+                            <a href="">Price from 50$ to 100$</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </div>
-        
-       <div class="grid-row3"> 
-            <div class="products-filter">
-                <div class="products-select-type">
-                    <span class="products-select-type__label">Product type</span>
-                    <i class="products-select-type__icon fas fa-chevron-down"></i>
-                </div>
-                <div class="products-select-type">
-                    <span class="products-select-type__label">Product type</span>
-                    <i class="products-select-type__icon fas fa-chevron-down"></i>
-                </div>
-                <div class="products-select-type">
-                    <span class="products-select-type__label">Product type</span>
-                    <i class="products-select-type__icon fas fa-chevron-down"></i>
-                </div>
-                <div class="products-select-type">
-                    <span class="products-select-type__label">Product type</span>
-                    <i class="products-select-type__icon fas fa-chevron-down"></i>
-                </div>
+        <div class="home__product">
+            <div class="product__header">
+                <h3 class="product__name">
+                    Best Seller
+                </h3>
             </div>
-        </div>
-        
-        <div class="grid-row4">
-            <div class="dp-table-relatedProducts">
-                <table>
-                    <tr>
-                        <td>
-                            <hr >
-                            </td>
-                        <td class="topic4">Best Seller</td>
-                        <td>
-                            <hr>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-        
-        <div class="grid-row5">
-            <div style="position: relative;">
-                <img class="btn_left" src="assests/img/btnleft.png" alt="">
-            </div>
-            <div class="grid-col2" style="margin: 30px;">
-                <div class="products-container-item">
-                    <div class="products-container-item__pic">
-                        <img src="./assests/img/Herbivore_Phoenix_Antiaging_FaceOil_Ecomm.jpg" alt="" class="products-container-item-img">
-                        <img src="./assests/img/Heart.png" alt="Heart" class="products-container-item-heart">
-                    </div>
+            <div class="product__detail">
+                <div class="product__arrow">
+                    <i class="product__icon-arrow-left fas fa-chevron-left"></i>
+                </div>
+                <div class="product__item">
+                    <div class="products-container-item">
+                        <div class="products-container-item__pic">
+                            <img src="./assests/img/Herbivore_Phoenix_Antiaging_FaceOil_Ecomm.jpg" alt="" class="products-container-item-img">
+                            <img src="./assests/img/Heart.png" alt="Heart" class="products-container-item-heart">
+                        </div>
 
-                    <div class="products-container-item__info">
-                        <div class="product-name-box">
-                            <h4 class="product-name">Phoenix Rosehip Anti Aging Face Oil - For Dry Skin</h4>
+                        <div class="products-container-item__info">
+                            <div class="product-name-box">
+                                <h4 class="product-name">Phoenix Rosehip Anti Aging Face Oil - For Dry Skin</h4>
+                            </div>
+                            <div class="product-review">
+                                <img src="./assests/img/Star.png" alt="" class="product-review-img">
+                                <span class="product-review-number">220 Reviews</span>
+                            </div>
+                            <p class="product-price">$54.00</p>
                         </div>
-                        <div class="product-review">
-                            <img src="./assests/img/Star.png" alt="" class="product-review-img">
-                            <span class="product-review-number">220 Reviews</span>
-                        </div>
-                        <p class="product-price">$54.00</p>
                     </div>
                     <button class="btn btn_buy-now">BUY NOW</button>
                 </div>
-            </div>
-            <div class="grid-col3" style="margin: 30px;">
-                <div class="products-container-item">
-                    <div class="products-container-item__pic">
-                        <img src="./assests/img/Herbivore_Phoenix_Antiaging_FaceOil_Ecomm.jpg" alt="" class="products-container-item-img">
-                        <img src="./assests/img/Heart.png" alt="Heart" class="products-container-item-heart">
-                    </div>
+                <div class="product__item">
+                    <div class="products-container-item">
+                        <div class="products-container-item__pic">
+                            <img src="./assests/img/Herbivore_Lapis_BlueTansy_FaceOil_Ecomm.jpg" alt="" class="products-container-item-img">
+                            <img src="./assests/img/Heart.png" alt="Heart" class="products-container-item-heart">
+                        </div>
 
-                    <div class="products-container-item__info">
-                        <div class="product-name-box">
-                            <h4 class="product-name">Phoenix Rosehip Anti Aging Face Oil - For Dry Skin</h4>
+                        <div class="products-container-item__info">
+                            <div class="product-name-box">
+                                <h4 class="product-name">Phoenix Rosehip Anti Aging Face Oil - For Dry Skin</h4>
+                            </div>
+                            <div class="product-review">
+                                <img src="./assests/img/Star.png" alt="" class="product-review-img">
+                                <span class="product-review-number">220 Reviews</span>
+                            </div>
+                            <p class="product-price">$54.00</p>
                         </div>
-                        <div class="product-review">
-                            <img src="./assests/img/Star.png" alt="" class="product-review-img">
-                            <span class="product-review-number">220 Reviews</span>
-                        </div>
-                        <p class="product-price">$54.00</p>
-                    </div>
-                    <button class="btn btn_buy-now">BUY NOW</button>
-                    <button class="btn btn_view-more">View more</button>
-                </div>
-            </div>
-            <div class="grid-col4" style="margin: 30px;">
-                <div class="products-container-item">
-                    <div class="products-container-item__pic">
-                        <img src="./assests/img/Herbivore_Phoenix_Antiaging_FaceOil_Ecomm.jpg" alt="" class="products-container-item-img">
-                        <img src="./assests/img/Heart.png" alt="Heart" class="products-container-item-heart">
-                    </div>
-
-                    <div class="products-container-item__info">
-                        <div class="product-name-box">
-                            <h4 class="product-name">Phoenix Rosehip Anti Aging Face Oil - For Dry Skin</h4>
-                        </div>
-                        <div class="product-review">
-                            <img src="./assests/img/Star.png" alt="" class="product-review-img">
-                            <span class="product-review-number">220 Reviews</span>
-                        </div>
-                        <p class="product-price">$54.00</p>
                     </div>
                     <button class="btn btn_buy-now">BUY NOW</button>
                 </div>
-            </div>
-            <div style="position: relative;">
-                <img class="btn_right" src="assests/img/btnright.png" alt="">
-            </div>
-        </div>
-
-        <div class="grid-row6">
-            <div class="dp-table-relatedProducts">
-                <table>
-                    <tr>
-                        <td>
-                            <hr >
-                            </td>
-                        <td class="topic4">Discount Product</td>
-                        <td>
-                            <hr>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-        <div class="grid-row7">
-            <div style="position: relative;">
-                <img class="btn_left" src="assests/img/btnleft.png" alt="">
-            </div>
-            <div class="grid-col2" style="margin: 30px;">
-                <div class="products-container-item">
-                    <div class="products-container-item__pic">
-                        <img src="./assests/img/Herbivore_Phoenix_Antiaging_FaceOil_Ecomm.jpg" alt="" class="products-container-item-img">
-                        <img src="./assests/img/Heart.png" alt="Heart" class="products-container-item-heart">
-                    </div>
-
-                    <div class="products-container-item__info">
-                        <div class="product-name-box">
-                            <h4 class="product-name">Phoenix Rosehip Anti Aging Face Oil - For Dry Skin</h4>
+                <div class="product__item">
+                    <div class="products-container-item">
+                        <div class="products-container-item__pic">
+                            <img src="./assests/img/Herbivore_Orchid_Antioxidant_FaceOil_Ecomm.jpg" alt="" class="products-container-item-img">
+                            <img src="./assests/img/Heart.png" alt="Heart" class="products-container-item-heart">
                         </div>
-                        <div class="product-review">
-                            <img src="./assests/img/Star.png" alt="" class="product-review-img">
-                            <span class="product-review-number">220 Reviews</span>
+
+                        <div class="products-container-item__info">
+                            <div class="product-name-box">
+                                <h4 class="product-name">Phoenix Rosehip Anti Aging Face Oil - For Dry Skin</h4>
+                            </div>
+                            <div class="product-review">
+                                <img src="./assests/img/Star.png" alt="" class="product-review-img">
+                                <span class="product-review-number">220 Reviews</span>
+                            </div>
+                            <p class="product-price">$54.00</p>
                         </div>
-                        <p class="product-price">$54.00</p>
                     </div>
                     <button class="btn btn_buy-now">BUY NOW</button>
                 </div>
-            </div>
-            <div class="grid-col3" style="margin: 30px;">
-                <div class="products-container-item">
-                    <div class="products-container-item__pic">
-                        <img src="./assests/img/Herbivore_Phoenix_Antiaging_FaceOil_Ecomm.jpg" alt="" class="products-container-item-img">
-                        <img src="./assests/img/Heart.png" alt="Heart" class="products-container-item-heart">
-                    </div>
+                <div class="product__item close">
+                    <div class="products-container-item">
+                        <div class="products-container-item__pic">
+                            <img src="./assests/img/Herbivore_Bakuchiol_Serum_Ecomm.jpg" alt="" class="products-container-item-img">
+                            <img src="./assests/img/Heart.png" alt="Heart" class="products-container-item-heart">
+                        </div>
 
-                    <div class="products-container-item__info">
-                        <div class="product-name-box">
-                            <h4 class="product-name">Phoenix Rosehip Anti Aging Face Oil - For Dry Skin</h4>
+                        <div class="products-container-item__info">
+                            <div class="product-name-box">
+                                <h4 class="product-name">Bakuchiol Retinol Alternative Smoothing Serum</h4>
+                            </div>
+                            <div class="product-review">
+                                <img src="./assests/img/Star.png" alt="" class="product-review-img">
+                                <span class="product-review-number">220 Reviews</span>
+                            </div>
+                            <p class="product-price">$54.00</p>
                         </div>
-                        <div class="product-review">
-                            <img src="./assests/img/Star.png" alt="" class="product-review-img">
-                            <span class="product-review-number">220 Reviews</span>
-                        </div>
-                        <p class="product-price">$54.00</p>
-                    </div>
-                    <button class="btn btn_buy-now">BUY NOW</button>
-                    <button class="btn btn_view-more">View more</button>
-                </div>
-            </div>
-            <div class="grid-col4" style="margin: 30px;">
-                <div class="products-container-item">
-                    <div class="products-container-item__pic">
-                        <img src="./assests/img/Herbivore_Phoenix_Antiaging_FaceOil_Ecomm.jpg" alt="" class="products-container-item-img">
-                        <img src="./assests/img/Heart.png" alt="Heart" class="products-container-item-heart">
-                    </div>
-
-                    <div class="products-container-item__info">
-                        <div class="product-name-box">
-                            <h4 class="product-name">Phoenix Rosehip Anti Aging Face Oil - For Dry Skin</h4>
-                        </div>
-                        <div class="product-review">
-                            <img src="./assests/img/Star.png" alt="" class="product-review-img">
-                            <span class="product-review-number">220 Reviews</span>
-                        </div>
-                        <p class="product-price">$54.00</p>
                     </div>
                     <button class="btn btn_buy-now">BUY NOW</button>
                 </div>
+                <div class="product__item close">
+                    <div class="products-container-item">
+                        <div class="products-container-item__pic">
+                            <img src="./assests/img/Herbivore_Emerald_HempSeed_FaceOil_Ecomm.jpg" alt="" class="products-container-item-img">
+                            <img src="./assests/img/Heart.png" alt="Heart" class="products-container-item-heart">
+                        </div>
+
+                        <div class="products-container-item__info">
+                            <div class="product-name-box">
+                                <h4 class="product-name">Emerald Deep Moisture Glow Oil</h4>
+                            </div>
+                            <div class="product-review">
+                                <img src="./assests/img/Star.png" alt="" class="product-review-img">
+                                <span class="product-review-number">220 Reviews</span>
+                            </div>
+                            <p class="product-price">$54.00</p>
+                        </div>
+                    </div>
+                    <button class="btn btn_buy-now">BUY NOW</button>
+                </div>
+                <div class="product__item close">
+                    <div class="products-container-item">
+                        <div class="products-container-item__pic">
+                            <img src="./assests/img/Herbivore_Prism_12AHA_Exfoliating_FaceSerum_Ecomm.jpg" alt="" class="products-container-item-img">
+                            <img src="./assests/img/Heart.png" alt="Heart" class="products-container-item-heart">
+                        </div>
+
+                        <div class="products-container-item__info">
+                            <div class="product-name-box">
+                                <h4 class="product-name">PRISM AHA + BHA Exfoliating Glow Serum</h4>
+                            </div>
+                            <div class="product-review">
+                                <img src="./assests/img/Star.png" alt="" class="product-review-img">
+                                <span class="product-review-number">220 Reviews</span>
+                            </div>
+                            <p class="product-price">$54.00</p>
+                        </div>
+                    </div>
+                    <button class="btn btn_buy-now">BUY NOW</button>
+                </div>
+                <div class="product__arrow">
+                    <i class="product__icon-arrow-right fas fa-chevron-right"></i>
+                </div>
             </div>
-            <div style="position: relative;">
-                <img class="btn_right" src="assests/img/btnright.png" alt="">
+            <div class="view-detail">
+                <button class="btn view-detail__btn">
+                    View more
+                    <i class="fas fa-arrow-right"></i>
+                </button>
             </div>
         </div>
-        
-        <div class="grid-row8">
-            <img src="assests/img/promotelast.png" class="homeimg3">
+        <div class="home__product">
+            <div class="product__header">
+                <h3 class="product__name">
+                    Discount Products
+                </h3>
+            </div>
+            <div class="product__detail">
+                <div class="product__arrow">
+                    <i class="product__icon-arrow-left fas fa-chevron-left"></i>
+                </div>
+                <div class="product__item">
+                    <div class="products-container-item">
+                        <div class="products-container-item__pic">
+                            <img src="./assests/img/Herbivore_Bakuchiol_Serum_Ecomm.jpg" alt="" class="products-container-item-img">
+                            <img src="./assests/img/Heart.png" alt="Heart" class="products-container-item-heart">
+                        </div>
+
+                        <div class="products-container-item__info">
+                            <div class="product-name-box">
+                                <h4 class="product-name">Bakuchiol Retinol Alternative Smoothing Serum</h4>
+                            </div>
+                            <div class="product-review">
+                                <img src="./assests/img/Star.png" alt="" class="product-review-img">
+                                <span class="product-review-number">220 Reviews</span>
+                            </div>
+                            <p class="product-price">$54.00</p>
+                        </div>
+                    </div>
+                    <button class="btn btn_buy-now">BUY NOW</button>
+                </div>
+                <div class="product__item">
+                    <div class="products-container-item">
+                        <div class="products-container-item__pic">
+                            <img src="./assests/img/Herbivore_Emerald_HempSeed_FaceOil_Ecomm.jpg" alt="" class="products-container-item-img">
+                            <img src="./assests/img/Heart.png" alt="Heart" class="products-container-item-heart">
+                        </div>
+                        
+                        <div class="products-container-item__info">
+                            <div class="product-name-box">
+                                <h4 class="product-name">Emerald Deep Moisture Glow Oil</h4>
+                            </div>
+                            <div class="product-review">
+                                <img src="./assests/img/Star.png" alt="" class="product-review-img">
+                                <span class="product-review-number">220 Reviews</span>
+                            </div>
+                            <p class="product-price">$54.00</p>
+                        </div>
+                    </div>
+                    <button class="btn btn_buy-now">BUY NOW</button>
+                </div>
+                <div class="product__item">
+                    <div class="products-container-item">
+                        <div class="products-container-item__pic">
+                            <img src="./assests/img/Herbivore_Prism_12AHA_Exfoliating_FaceSerum_Ecomm.jpg" alt="" class="products-container-item-img">
+                            <img src="./assests/img/Heart.png" alt="Heart" class="products-container-item-heart">
+                        </div>
+
+                        <div class="products-container-item__info">
+                            <div class="product-name-box">
+                                <h4 class="product-name">PRISM AHA + BHA Exfoliating Glow Serum
+                                </h4>
+                            </div>
+                            <div class="product-review">
+                                <img src="./assests/img/Star.png" alt="" class="product-review-img">
+                                <span class="product-review-number">220 Reviews</span>
+                            </div>
+                            <p class="product-price">$54.00</p>
+                        </div>
+                    </div>
+                    <button class="btn btn_buy-now">BUY NOW</button>
+                </div>
+                <div class="product__item close">
+                    <div class="products-container-item">
+                        <div class="products-container-item__pic">
+                            <img src="./assests/img/Herbivore_BlueTansy_Pores_FaceMask_Ecomm.jpg" alt="" class="products-container-item-img">
+                            <img src="./assests/img/Heart.png" alt="Heart" class="products-container-item-heart">
+                        </div>
+
+                        <div class="products-container-item__info">
+                            <div class="product-name-box">
+                                <h4 class="product-name">Blue Tansy Invisible Pores Resurfacing Clarity Mask</h4>
+                            </div>
+                            <div class="product-review">
+                                <img src="./assests/img/Star.png" alt="" class="product-review-img">
+                                <span class="product-review-number">220 Reviews</span>
+                            </div>
+                            <p class="product-price">$54.00</p>
+                        </div>
+                    </div>
+                    <button class="btn btn_buy-now">BUY NOW</button>
+                </div>
+                <div class="product__item close">
+                    <div class="products-container-item">
+                        <div class="products-container-item__pic">
+                            <img src="./assests/img/Herbivore_Brighten_Enzyme_FaceMask_Ecomm.jpg" alt="" class="products-container-item-img">
+                            <img src="./assests/img/Heart.png" alt="Heart" class="products-container-item-heart">
+                        </div>
+
+                        <div class="products-container-item__info">
+                            <div class="product-name-box">
+                                <h4 class="product-name">Brighten Pineapple + Gemstone Mask</h4>
+                            </div>
+                            <div class="product-review">
+                                <img src="./assests/img/Star.png" alt="" class="product-review-img">
+                                <span class="product-review-number">220 Reviews</span>
+                            </div>
+                            <p class="product-price">$54.00</p>
+                        </div>
+                    </div>
+                    <button class="btn btn_buy-now">BUY NOW</button>
+                </div>
+                <div class="product__item close">
+                    <div class="products-container-item">
+                        <div class="products-container-item__pic">
+                            <img src="./assests/img/Herbivore_CocoRose_BodyScrub_Ecomm.jpg" alt="" class="products-container-item-img">
+                            <img src="./assests/img/Heart.png" alt="Heart" class="products-container-item-heart">
+                        </div>
+
+                        <div class="products-container-item__info">
+                            <div class="product-name-box">
+                                <h4 class="product-name">Coco Rose Exfoliating Body Scrub</h4>
+                            </div>
+                            <div class="product-review">
+                                <img src="./assests/img/Star.png" alt="" class="product-review-img">
+                                <span class="product-review-number">220 Reviews</span>
+                            </div>
+                            <p class="product-price">$54.00</p>
+                        </div>
+                    </div>
+                    <button class="btn btn_buy-now">BUY NOW</button>
+                </div>
+                <div class="product__arrow">
+                    <i class="product__icon-arrow-right fas fa-chevron-right"></i>
+                </div>
+            </div>
+            <div class="view-detail">
+                <button class="btn view-detail__btn">
+                    View more
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
         </div>
-        <div class="grid-row9">
-            <div class="dp-table-relatedProducts">
-                <table>
-                    <tr>
-                        <td>
-                            <hr >
-                            </td>
-                        <td class="topic4">About Us</td>
-                        <td>
-                            <hr>
-                        </td>
-                    </tr>
-                </table>
+        <div class="sub__slide">
+            <img src="./assests/img/promote1.jpg" alt="" class="sub__slide-img">
+        </div>
+        <div class="about">
+            <div class="product__header">
+                <h3 class="product__name">
+                    About Us
+                </h3>
+            </div>
+            <h4 class="about__info-heading">
+                Keem’s Beauty believes in the power of nature to bring tangible results you can see and feel. We make our products, ingredients, and packaging as gentle on the planet as they are on our bodies.
+            </h4>
+            <p class="about__info-detail">
+                We bring you products that are safe, truly natural and highly effective. All of our formulas are original, created and tested by us, on real people — never on animals and always from scratch. All of our products have an emphasis on natural, high-quality ingredients.  We package in glass and paper, using recycled & recyclable plastic only when necessary. We are always free of synthetic ingredients, including dyes, fragrances, and parabens. By formulating without synthetic ingredients, we strive to create products to be as biocompatible as possible.
+            </p>
+            <div class="view-detail">
+                <button class="btn view-detail__btn">
+                    View detail
+                    <i class="fas fa-arrow-right"></i>
+                </button>
             </div>
         </div>
-        <div class="grid-row10">
-            <h1 class="topic5">We bring you products that are safe, truly natural and highly effective. All of our formulas are original, created and tested by us, on real people — never on animals and always from scratch. All of our products have an emphasis on natural, high-quality ingredients.  We package in glass and paper, using recycled & recyclable plastic only when necessary. We are always free of synthetic ingredients, including dyes, fragrances, and parabens. By formulating without synthetic ingredients, we strive to create products to be as biocompatible as possible.</h1>
-            <button class="btn btn_view-detail">View detail</button>
-        </div>
-        <div class="grid-row11">
-            <div class="dp-table-relatedProducts">
-                <table>
-                    <tr>
-                        <td>
-                            <hr >
-                            </td>
-                        <td class="topic4">Contact Us</td>
-                        <td>
-                            <hr>
-                        </td>
-                    </tr>
-                </table>
+        <div class="contact">
+            <div class="product__header">
+                <h3 class="product__name">
+                    Contact Us
+                </h3>
             </div>
-        </div>  
-        <div class="grid-row12">
-            <div class="grid-col12-1">
-                <div>
-                    <img src="assests/img/Adress.png" class="icon1">
-                    <span class="contact1">657B Quang Trung, P.11, Q.Go Vap, TP.HCM</span>
+            <div class="contact__detail">
+                <div></div>
+                <div class="contcat__info">
+                    <div class="contcat__info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>657B Quang Trung, P.11, Q.Go Vap, TP.HCM</span>
+                    </div>
+                    <div class="contcat__info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>1800 6324 - 0938.664.657(SPA)</span>
+                    </div>
+                    <div class="contcat__info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>keemsbeauty@gmail.com</span>
+                    </div>
                 </div>
-                <div>
-                    <img src="assests/img/Phone.png" class="icon2">
-                    <span class="contact2">1800 6324 - 0938.664.657(SPA)</span>
+                <div></div>
+                <div class="contact__register">
+                    <h4>Update for discounts</h4>
+                    <input type="text" placeholder="Email">
+                    <button class="btn contact__register-btn">REGISTER</button>
                 </div>
-                <div>
-                    <img src="assests/img/Mail.png" class="icon3">
-                    <span class="contact3">keemsbeauty@gmail.com</span>
-                </div>
-            </div>
-            <div class="grid-col12-3">
-                <div>
-                    <h1 class="contact4">Update for discounts</h1>
-                </div>
-                <div>
-                    <input type="text" class="txtEmail" placeholder="Email" name="firstname">
-                </div>
-                <div>
-                    <button class="btn btnRegister">Register</button>
-                </div>
+                <div></div>
             </div>
         </div>
-        <div class="grid-row13">
-            <div class="dp-table-relatedProducts">
-                <table>
-                    <tr>
-                        <td>
-                            <hr >
-                            </td>
-                        <td class="topic4">Purchase</td>
-                        <td>
-                            <hr>
-                        </td>
-                    </tr>
-                </table>
+        <div class="purchase">
+            <div class="product__header">
+                <h3 class="product__name">
+                    Purchase
+                </h3>
             </div>
-        </div> 
-        <div class="grid-row14">
-            <div class="grid-col14-1">
-                <div>
-                    <img src="assests/img/vouchers.png" class="voucher">
+            <div class="purchase__detail">
+                <div></div>
+                <div class="purchase__detail-item">
+                    <img src="./assests/img/1.png" alt="">
+                    <h4>Special vouchers</h4>
+                    <div>
+                        <p>View available promo codes and use them to buy now.</p>
+                    </div>
+                    <span>View detailed information</span>
                 </div>
-                <h1 class="txtvoucher1">Special vouchers </h1>
-                <h1 class="txtvoucher2">View available promo codes and use them to buy now.</h1>
-                <h1 class="txtvoucher3">View detailed information</h1>
-            </div>
-            <div class="grid-col14-2">
-                <img src="assests/img/process.png" class="process">
-                <h1 class="txtprocess1">Purchasing process </h1>
-                <h1 class="txtprocess2">Learn the buying process at Keem's Beauty. </h1>
-                <h1 class="txtprocess3">View detailed information</h1>
-            </div>
-            <div class="grid-col14-3">
-                <img src="assests/img/services.png" class="services">
-                <h1 class="txtservices1">Shipping Services</h1>
-                <h1 class="txtservices2">Find out about the nationwide delivery service when shopping at keem's beauty. </h1>
-                <h1 class="txtservices3">View detailed information</h1>
-            </div>
-            <div class="grid-col14-4">
-                <img src="assests/img/methods.png" class="methods">
-                <h1 class="txtmethods1">Payment Methods </h1>
-                <h1 class="txtmethods2">Shopping is easier than ever with credit/debit cards, ATM cards and COD on delivery.  </h1>
-                <h1 class="txtmethods3">View detailed information</h1>
+                <div class="purchase__detail-item">
+                    <img src="./assests/img/2.png" alt="">
+                    <h4>Purchasing process</h4>
+                    <div>
+                        <p>Learn the buying process at Keem's Beauty.</p>
+                    </div>
+                    <span>View detailed information</span>
+                </div>
+                <div class="purchase__detail-item">
+                    <img src="./assests/img/3.png" alt="">
+                    <h4>Shipping Services</h4>
+                    <div>
+                        <p>Find out about the nationwide delivery service when shopping at keem's beauty.</p>
+                    </div>
+                    <span>View detailed information</span>
+                </div>
+                <div class="purchase__detail-item">
+                    <img src="./assests/img/4.png" alt="">
+                    <h4>Payment Methods</h4>
+                    <div>
+                        <p>Shopping is easier than ever with credit/debit cards, ATM cards and COD on delivery.</p>
+                    </div>
+                    <span>View detailed information</span>
+                </div>
+                <div></div>
             </div>
         </div>
     </div>
